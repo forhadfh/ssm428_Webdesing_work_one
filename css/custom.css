@@ -1,0 +1,61 @@
+:root { --theme-color: #fb2056; --dark: #222222; }
+header { background-image: url("../images/unsplash.jpg"); background-size: cover; background-position: center bottom; background-color: rgba(0, 0, 0, 0.48); background-blend-mode: overlay; }
+.hero-banner-section { padding: 300px 0px; }
+.hero-banner { text-align: center; }
+.hero-banner h3 { color: rgb(255, 255, 255); font-size: 28px; font-style: italic; }
+.hero-banner h1 {color: rgb(255, 255, 255);font-size: 70px;text-transform: uppercase;font-weight: 700;margin: 25px 0px;}
+.line { width: 100px; height: 3px; display: block; background: var(--theme-color); margin: auto; }
+.btn-custom { border: 2px solid var(--theme-color); background-color: var(--theme-color); border-radius: 30px; padding: 8px 20px; color: rgb(255, 255, 255); letter-spacing: 2px; text-transform: uppercase; font-weight: 600; font-size: 15px; }
+.btn-custom:hover { background-color: transparent; color: rgb(255, 255, 255); }
+.navbar-light .navbar-brand, .navbar-light .navbar-brand:hover { color: rgb(255, 255, 255); }
+.navbar-light .navbar-brand h1 { font-size: 20px; text-transform: uppercase; font-weight: 600; text-align: center; }
+.navbar-light .navbar-brand h1 span { display: block; font-weight: 100; font-size: 15px; letter-spacing: 2px; }
+.navbar-light .navbar-nav .nav-link { color: rgb(255, 255, 255); border: 2px solid transparent; border-radius: 30px; padding: 5px 20px; font-weight: 500; }
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link { color: rgb(255, 255, 255); border: 2px solid rgb(255, 255, 255); }
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover { color: rgb(255, 255, 255); border: 2px solid rgb(255, 255, 255); }
+.testimonial-section { background: rgb(244, 245, 249); padding: 30px 0px; }
+.testimonial-section img { width: 100px; }
+.testimonial h3 { font-size: 20px; color: rgb(85, 85, 85); }
+.testimonial { text-align: center; }
+.testimonial h2 { text-transform: uppercase; font-size: 17px; color: rgb(102, 102, 102); }
+.upcoming-events-section { padding: 60px 0px; }
+.heading { text-align: center; margin-bottom: 40px; }
+.heading h1 { color: var(--dark); text-transform: uppercase; font-size: 30px; font-weight: 800; letter-spacing: 1px; }
+.event { }
+.event img { box-shadow: rgba(34, 34, 34, 0.14) 8px 8px; border-radius: 10px; }
+.event .card-body { }
+.event .card-body h5 { font-size: 24px; color: var(--dark); text-transform: uppercase; font-weight: 700; letter-spacing: 1px; margin: 20px; }
+.event .card-body p { font-size: 17px; font-weight: 500; color: rgb(102, 102, 102); }
+.event .card-body a { font-size: 16px; text-transform: uppercase; color: var(--theme-color); font-weight: 500; letter-spacing: 1px; text-decoration: none; }
+.upcoming-events-section .row > div { padding-left: 30px; padding-right: 30px; }
+.explore-section { background-image: url("../images/unsplash.jpg"); background-size: cover; background-position: center bottom; background-color: rgba(0, 0, 0, 0.48); background-blend-mode: overlay; padding: 100px 0px; }
+.explore-section h1 { color: rgb(255, 255, 255); font-size: 70px; text-transform: uppercase; font-weight: 700; }
+.explore-section .line { margin: inherit; }
+.explore-section p { color: white; font-size: 18px; margin-top: 30px; }
+.explore-section a { font-size: 16px; text-transform: uppercase; color: rgb(255, 255, 255); font-weight: 500; letter-spacing: 1px; text-decoration: none; }
+.tours-section { padding: 100px 0px; }
+.tours-section img.tour_img { height: 300px; width: 100%; object-fit: cover; border-radius: 10px; margin-bottom: 20px; }
+.tours-section img.destination-img { height: 400px; width: 100%; object-fit: cover; margin-bottom: 20px; border-radius: 10px; }
+.Contact-section {box-sizing: border-box;padding: 40px;background: #a7009e;color: white;text-align: center;}
+.h1, h1 {
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    width: 37px;
+    height: 37px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+    border: 0;
+}
+.navbar-toggler span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: white;
+}
+.navbar-toggler:focus{
+    box-shadow: 0 0 0 0;
+}
